@@ -4,7 +4,27 @@
 	font-family: 'Josefin Sans', sans-serif;
 	box-sizing: border-box;
 }
-
+.hero{
+	height: 100vh;
+	width: 100%;
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 45px;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.logo{
+	color: white;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
 span{
 	color: #f9004d;
 }
@@ -22,6 +42,16 @@ nav ul li a{
 nav ul li a:hover{
 	color: #f9004d;
 	transition: .4s;
+}
+.btn{
+	background-color:#f9004d;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 30px;
+	transition: transform .4s; 
 }
 .btn:hover{
 	transform: scale(1.2);
@@ -265,3 +295,10 @@ footer p:nth-child(2){
 .social a:hover{
 	transform: scale(1.3);
 	transition: .3s;
+}
+.end{
+	position: absolute;
+	color:#f9004d;
+	bottom: 35px;
+	font-size: 14px; 
+}
